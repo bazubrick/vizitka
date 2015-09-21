@@ -1,0 +1,30 @@
+<template name="table">
+    <table class="bordered">
+        <thead>
+            <tr>
+                <th data-field="price">Day</th>
+                <th data-field="price">Hour</th>
+                <th data-field="id">Name</th>
+                <th data-field="name">Email</th>
+                <th data-field="price">Number</th>
+                <th data-field="price">Text</th>
+                <th data-field="price">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each table}}
+            <tr>
+                <td>{{day}}</td>
+                <td>{{hour}}</td>
+                <td>{{name}}</td>
+                <td>{{email}}</td>
+                <td>{{number}}</td>
+                <td>{{text}}</td>
+                <td><a class="waves-effect waves-light btn purple lighten-3 delAdmTable" id="{{_id}}">Delete</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</template>
+
+

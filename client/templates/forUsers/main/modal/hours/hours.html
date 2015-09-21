@@ -1,0 +1,13 @@
+<template name = "Hours">
+	{{#if countRez}}
+        {{#each rezervsC}}
+			<a class="btn-floating btn-large waves-effect waves-light red rezervButon">
+				<i class="material-icons rezervBut" id="{{_id}}" name="{{day}}" name2="{{hour}}">
+					{{hour}}
+				</i>
+			</a>
+        {{/each}}
+    {{else}}
+        <p>На цей день всi години зарезервовано</p>
+    {{/if}}
+</template>

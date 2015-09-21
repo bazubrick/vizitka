@@ -1,0 +1,24 @@
+<template name="tableZvaz">
+	<table class="bordered">
+    	<thead>
+      		<tr>
+	            <th data-field="id">Name</th>
+	            <th data-field="name">Email</th>
+	            <th data-field="price">Number</th>
+	            <th data-field="price">Text</th>
+	            <th data-field="price">Delete</th>
+      		</tr>
+    	</thead>
+    	<tbody>
+    		{{#each tableZvaz}}
+	        <tr>
+	            <td>{{name}}</td>
+	            <td>{{email}}</td>
+	            <td>{{number}}</td>
+	            <td>{{text}}</td>
+	            <td><a class="waves-effect waves-light btn delAdmTableZvaz purple lighten-3" id="{{_id}}">Delete</a></td>
+	        </tr>
+    		{{/each}}
+    	</tbody>
+  	</table>
+</template>

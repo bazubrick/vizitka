@@ -1,0 +1,24 @@
+<template name="formAdmin"> <!-- админ форма -->
+	<div class="row">
+    	<form class="col s12">
+      		<div class="row">
+      			<select class="browser-default col m2 admIn" name="day">
+				    <option value="Monday">Monday</option>
+				    <option value="Tuesday">Tuesday</option>
+				    <option value="Wednesday">Wednesday</option>
+				    <option value="Thursday">Thursday</option>
+				    <option value="Friday">Friday</option>
+				    <option value="Saturday">Saturday</option>
+				    <option value="Sunday">Sunday</option>
+    			</select>
+        		<div class="input-field col m8 admIn">
+		        	<input id="last_name" type="text" class="validate" name="hour">
+		          	<label for="last_name">Година</label>
+        		</div>
+	    		<button class="btn waves-effect waves-light col m2 admMarg purple lighten-3" type="submit" name="action">
+	    			Добавити
+				</button>
+    		</div>
+    	</form>
+  	</div>
+</template>

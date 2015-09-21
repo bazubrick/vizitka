@@ -1,0 +1,311 @@
+*:after,
+*:before {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+body {
+	background:white;
+}
+ul {
+	list-style:none;
+}
+img {
+	vertical-align:bottom;
+}
+.wrapper {
+	max-width:1280px;
+	margin:0 auto;
+}
+.logo {
+	margin:25px 0;
+	text-align:center;
+}
+.logo-img {
+	max-width:95%;
+}
+/* SuperBox */
+.superbox-list {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+
+	margin:0;
+	padding:0;
+
+}
+.superbox-img {
+	max-width:100%;
+	width:100%;
+	cursor:pointer;
+}
+.superbox-show {
+	text-align:center;
+	position:relative;
+	background:#333;
+	box-shadow:inset 0 1px 5px #111;
+	-webkit-box-shadow:inset 0 1px 5px #111;
+	-moz-box-shadow:inset 0 1px 5px #111;
+	width:100%;
+    float:left;
+	padding:25px;
+	display:none;
+}
+.superbox-current-img {
+	max-width:100%;
+	box-shadow:0 1px 4px #222;
+	border:1px solid #222;
+}
+.superbox-img:hover {
+	opacity:0.8;
+}
+.superbox-float {
+	float:left;
+}
+.superbox-close {
+	opacity:0.7;
+	cursor:pointer;
+	position:absolute;
+	top:25px;
+	right:25px;
+	background:url(../close.gif) no-repeat center center;
+	width:35px;
+	height:35px;
+}
+.superbox-close:hover {
+	opacity:1;
+}
+@media only screen and (min-width: 320px) {
+	.superbox-list {
+		width:49.5%;
+	}
+}
+@media only screen and (min-width: 486px) {
+	.superbox-list {
+		width:16%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.superbox-list {
+		width: 16%;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+	.superbox-list {
+		width: 19.6%;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	.superbox-list {
+		width: 19.7%;
+	}
+}
+@media only screen and (min-width: 1150px) {
+	.superbox-list {
+		width: 19.730%;
+	}
+}
+
+/* .superbox-list {
+		margin: 3px 0 0 3px;
+	} */
+	.superbox{
+		padding: 0 4px 0 4px
+	}
+#photoAdmGal{
+	padding: 0px;
+	margin-top:2px;
+}
+.superbox{
+	border: 1px solid #EEEEEE;
+}
+
+ .nanav{
+	height: 65px;
+}
+.slider{
+	z-index: 0;
+}
+.card-action {
+	font-color: #f06292;
+}
+.leleka {
+	font-size: 40px;
+}
+#leleka{
+	color:#ec407a;
+
+}
+#leleka:hover{
+	color:#f48fb1;
+}
+.lol{
+	
+	position: relative;
+	height: 500px;
+	padding: 0 0 0 0;
+}
+.lol img {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+}
+.lalka{
+	height: 50px;
+
+}
+.sosatu {
+	z-index: 0;
+	
+	width: 100%;
+	height: 500px;
+}
+.price {
+	
+	position: absolute;
+	top:0px;
+	right: 35.5%;
+	z-index: 2;
+}
+.lolka{
+	font-size: 40px;
+	color:white;
+}
+#fot{
+	margin-top: 0px;
+}
+.about{
+	height: 400px;
+		overflow: auto;
+
+}
+.kolo{
+	line-height: 1.5em;
+	color: #3C3C3C;
+
+}
+.karina{
+	height: 500px;
+	width: 100%;
+
+}
+.contact{
+	height: 375px;
+}
+#flags{
+	margin:0;
+	padding: 0;
+}
+
+.parallax-container {
+      height: 500px;
+    }
+ .input-field input[type=text]:focus + label {
+     color: #F06292;
+   }
+
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #F06292;
+     box-shadow: 0 1px 0 0 #F06292;
+   }
+   
+   .input-field #textarea1:focus {
+     border-bottom: 1px solid #F06292;
+     box-shadow: 0 1px 0 0 #F06292;
+   }
+   .input-field #textarea1:focus + label {
+     color: #F06292;
+   }
+   .vusota{
+   	margin-top: 0%;
+   }
+#modal1{
+	max-height: 60%;
+}
+.rezBut{
+	margin: 5px;
+	font-family: sans-serif;
+}
+.btn-large i {
+	font-size: 1.1rem;
+}
+.input-field #rezText:focus {
+     border-bottom: 1px solid #F06292;
+     box-shadow: 0 1px 0 0 #F06292;
+   }
+.input-field #rezText:focus + label {
+     color: #F06292;
+   }
+.admIn{
+	margin-top: 20px;
+}
+.admMarg{
+	margin-top: 30px;
+}
+
+.rezervButon{
+	margin:5px 10px 0 0;
+}
+#dH{
+	font-size: 20px;
+	
+}
+.adminBlock{
+	height: 62px;
+	border: 1px solid #e1bee7;
+	
+}
+.galMak{
+	height: 50%;
+	background: red;
+}
+#slidH{
+	height: 100%;
+	width:100%
+}
+
+
+.tabs li {
+	font-size: 14px;
+}
+.load {
+	margin-left:48%;
+	margin-top: 33%;
+}
+#butNavLog:hover{
+	background: #BA68C8;
+}
+#at-nav-button{
+	background: #ce93d8;
+}
+#at-btn{
+	margin-bottom: 15px;
+}
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+}
+.tabs li{
+	font-size: 11px;
+}
+.widStr{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	bottom: 5%;
+	left: 47.5%;
+}
+div[class*="z-depth-1"]{
+	margin-top: 15%;
+}
+      
+

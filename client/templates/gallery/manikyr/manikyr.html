@@ -1,0 +1,22 @@
+<template name="manikyr">
+	<head>
+		<title>gale</title>
+	</head>
+	<body>
+		{{>modal}}
+		{{>navG}}	
+	    {{>gallery}}
+
+	    <div class="superbox">
+
+			{{#each PhotoMan}}
+				<div class="superbox-list" id="photoAdmGal">
+					<img src="{{photo}}" data-img="{{photo}}" alt="" class="superbox-img">
+				</div>
+			{{/each}}
+			<div class="superbox-float"></div>
+		</div>
+		
+		{{>footer}}
+	</body>
+</template>

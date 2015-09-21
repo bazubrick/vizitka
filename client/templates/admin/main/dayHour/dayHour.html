@@ -1,0 +1,20 @@
+<template name="dayHour">
+	<table class="bordered">
+    	<thead>
+      		<tr>
+	            <th data-field="id">Day</th>
+	            <th data-field="name">Hour</th>
+	            <th data-field="price">Delete</th>
+      		</tr>
+    	</thead>
+    	<tbody>
+    		{{#each adminRemove}}
+	        <tr>
+	            <td>{{day}}</td>
+	            <td>{{hour}}</td>
+	            <td><a class="waves-effect waves-light btn admDelBut purple lighten-3" id="{{_id}}">Delete</a></td>
+	        </tr>
+    		{{/each}}
+    	</tbody>
+  	</table>
+</template>

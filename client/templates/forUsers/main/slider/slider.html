@@ -1,0 +1,80 @@
+<template name="slider">
+	<div class="slider fullscreen pink lighten-1" id="Logo">
+	  	<ul class="slides">
+	     		<li>
+		       		<img src="slider1.jpg">
+		       		<div class="widStr">
+							<a href="#" class="proDown"><img class="" src="ar.png" alt=""></a>
+						</div>
+		      		<div class="caption center-align">
+		  		    	<h3>Ми радi вас бачити на сайтi EMbeauty</h3>
+		  		       	<a class="waves-effect modal-trigger waves-light btn pink lighten-1" href="#modal1">
+		  		       		Reserve
+		  		       	</a>
+		  		    	<h5 class="light grey-text text-lighten-3">Ви можете зарезервувати мiсце</h5>
+		    		</div>
+	     		</li>
+	     			     		<li>
+		       		<img src="slider2.jpg">
+		       		<div class="widStr">
+							<a href="#" class="proDown"><img class="" src="ar.png" alt=""></a>
+						</div>
+		      		<div class="caption center-align">
+		  		    	<h3>Ми радi вас бачити на сайтi EMbeauty</h3>
+		  		       	<a class="waves-effect modal-trigger waves-light btn pink lighten-1" href="#modal1">
+		  		       		Reserve
+		  		       	</a>
+		  		    	<h5 class="light grey-text text-lighten-3">Ви можете зарезервувати мiсце</h5>
+		    		</div>
+	     		</li>
+	     			     		<li>
+		       		<img src="slider3.jpg">
+		       		<div class="widStr">
+							<a href="#" class="proDown"><img class="" src="ar.png" alt=""></a>
+						</div>
+		      		<div class="caption center-align">
+		  		    	<h3>Ми радi вас бачити на сайтi EMbeauty</h3>
+		  		       	<a class="waves-effect modal-trigger waves-light btn pink lighten-1" href="#modal1">
+		  		       		Reserve
+		  		       	</a>
+		  		    	<h5 class="light grey-text text-lighten-3">Ви можете зарезервувати мiсце</h5>
+		    		</div>
+	     		</li>
+	     			     		<li>
+		       		<img src="slider4.jpg">
+		       		<div class="widStr">
+							<a href="#" class="proDown"><img class="" src="ar.png" alt=""></a>
+						</div>
+		      		<div class="caption center-align">
+		  		    	<h3>Ми радi вас бачити на сайтi EMbeauty</h3>
+		  		       	<a class="waves-effect modal-trigger waves-light btn pink lighten-1" href="#modal1">
+		  		       		Reserve
+		  		       	</a>
+		  		    	<h5 class="light grey-text text-lighten-3">Ви можете зарезервувати мiсце</h5>
+		    		</div>
+	     		</li>
+	   	</ul>				
+	  	{{>gallery}} <!-- вставляем галерею -->
+	  	<div class="parallax-container" id="Price">
+	      	<div class="parallax">
+	      		<img src="price.jpg" alt="" >
+	      		<div class="price">
+	  				<div class="center-align lolka">Тут буде прайс-лист</div>
+	  			</div>
+	      	</div>
+	    </div>
+	  	{{>about}}<!--  вставляемо блок пронас -->
+	    <div class="parallax-container" id="Price">
+	      	<div class="parallax">
+	      		<img src="about.jpg" alt="" >
+	      		<div class="price">
+	  			</div>
+	      	</div>
+	    </div>
+	      {{>contact}} <!-- вставляемо форму контактив -->
+	      <div class="map-container">
+	      	{{> googleMap name="map" options=mapOptions}} <!-- вставляем гугл карту -->
+	      </div> 
+	      {{>footer}} <!-- вставляемо футер -->
+	  </div>    
+</template>

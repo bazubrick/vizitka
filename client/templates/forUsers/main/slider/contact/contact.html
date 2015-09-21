@@ -1,0 +1,31 @@
+<template name="contact"> <!-- Форма для звязку -->
+    <div class="contact" id="Contact">
+      <div class="center-align leleka">Contact us</div>
+      <div class="row">
+            <form class="col m8 offset-m2">
+                <div class="row">
+                  <div class="input-field col m4 ">
+                      <input id="first_name" type="text" name="firstname" class="validate">
+                      <label for="first_name">Name</label>
+                  </div>
+                  <div class="input-field col m4">
+                      <input id="email_name" type="text" class="validate" name="email">
+                      <label for="email_name">Email</label>
+                  </div>
+                  <div class="input-field col m4 active">
+                    <input id="phone_name" type="text" class="validate" name="number">
+                      <label for="phone_name">Number</label>
+                  </div>
+                  <div class="input-field col m12">
+                    <textarea id="textarea1" class="materialize-textarea" name="text"></textarea>
+                      <label for="textarea1">Text</label>
+                  </div>
+                  
+                  <button class="btn waves-effect waves-light col m2 pink lighten-1" type="submit" name="action">
+                    Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</template>

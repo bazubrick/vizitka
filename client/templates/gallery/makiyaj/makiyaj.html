@@ -1,0 +1,24 @@
+<template name="makiyaj">
+	<head>
+		<title>gale</title>
+	</head>
+	<body>
+		{{>modal}}
+		{{>navG}}	
+	    {{>gallery}}
+	<div class="">
+		<!-- SuperBox -->
+		<div class="superbox">
+			
+						{{#each PhotoMak}}
+				<div class="superbox-list" id="photoAdmGal">
+					<img src="{{photo}}" data-img="{{photo}}" alt="" class="superbox-img">
+				</div>
+			{{/each}}
+			<div class="superbox-float"></div>
+		</div>
+		<!-- /SuperBox -->
+	</div>
+		{{>footer}}
+	</body>
+</template>

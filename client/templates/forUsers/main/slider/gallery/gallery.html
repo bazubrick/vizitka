@@ -1,0 +1,35 @@
+<template name="gallery"> <!-- Галерея -->
+    <div class="row gallery" id="Gallery">
+        <div class="center-align leleka">Gallery</div> 
+        <!-- =================Блок з маникюром==================-->
+        <div class="col s12 m3 offset-m2"> 
+            <div class="card">
+                <div class="card-image">
+                    <img src="lal.jpg">
+                    <span class="card-title">Манiкюр</span>
+                </div>
+                <div class="card-content">
+                    <p>Тут шось написати про манiкюр.</p>
+                </div>
+                <div class="card-action">
+                    <a href="{{pathFor 'gal'}}" id="leleka">Переглянути манiкюр</a>
+                </div>
+            </div>
+        </div>
+        <!-- ============блок з педикюром==================== -->
+        <div class="col s12 m3 offset-m2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="mak.jpg">
+                    <span class="card-title">Макiяж</span>
+                </div>
+                <div class="card-content">
+                    <p  >Тут шось написати про макiяж.</p>
+                </div>
+                <div class="card-action">
+                    <a href="{{pathFor 'makiyaj'}}" id="leleka" >Переглянути макiяж</a>
+                </div>
+            </div>
+        </div>
+    </div>        
+</template>

@@ -1,0 +1,17 @@
+<template name="navAdmin">
+	<div class="nanav ">
+        <div class="navbar-fixed ">
+            <nav>
+                <div class="nav-wrapper purple lighten-2">
+                    <a href="{{pathFor 'homes'}}" class="brand-logo">Home</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#" id="hourDel">Видалити всi години</a></li>
+						<li><a href="#" id="orderDel">Видалити всi закази</a></li>
+						<li><a href="#" id="navZvazDel">Видалити зв'язок</a></li>
+                        <li id="butNavLog">{{> atNavButton }}</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>  
+</template>

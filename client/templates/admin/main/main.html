@@ -1,0 +1,66 @@
+<template name="adminka">
+	<head>
+		<title>adminka</title>
+	</head>
+	<body>
+		{{>navAdmin}}<!-- пидключаем верхню навигацию --> 
+		<div class="backColor">	
+			<div class="row">
+				<div class="center-align leleka">Добавити</div> 
+				<ul class="collapsible col m8 offset-m2" data-collapsible="accordion">
+			    	<li>
+			      		<div class="collapsible-header center-align">Добавити замовлення
+			      		</div>
+			      		<div class="collapsible-body">
+			      			{{>formAdmin}}
+			      		</div>
+			    	</li>
+					<li>
+						<div class="collapsible-header center-align">Манiкюр</div>
+						<div class="collapsible-body">
+							{{>formPhotoMan}}
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header center-align">Макiяж</div>
+						<div class="collapsible-body">
+							{{>formPhotoMak}}
+						</div>
+					</li>
+			  	</ul>
+		  	</div>
+				  <ul class="collapsible" data-collapsible="accordion">
+		    			<li>
+		      				<div class="collapsible-header center-align">Добавленнi замовлення</div>
+		      				<div class="collapsible-body">
+		      					{{>dayHour}}
+		      				</div>
+		    			</li>
+		    			<li>
+		      				<div class="collapsible-header center-align">Онлайн резерви</div>
+		      				<div class="collapsible-body">
+		      					{{>table}}
+		      				</div>
+		    			</li>
+		    			<li>
+		      				<div class="collapsible-header center-align">Зв'язок</div>
+		      				<div class="collapsible-body">
+		      					{{>tableZvaz}}
+		      				</div>
+		    			</li>
+		    			<li>
+		      				<div class="collapsible-header center-align">Видалити манiкюр</div>
+		      				<div class="collapsible-body">
+		      					{{>DelPhotoMan}}
+		      				</div>
+		    			</li>
+		    			<li>
+		      				<div class="collapsible-header center-align">Видалити макiяж</div>
+		      				<div class="collapsible-body">
+		      					{{>DelPhotoMak}}
+		      				</div>
+		    			</li>
+		  			</ul>
+		  		</div>
+	</body>
+</template>
